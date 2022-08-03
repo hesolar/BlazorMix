@@ -1,0 +1,16 @@
+﻿@if (Show)
+{
+ <div class="alert alert-secondary mt-4" role="alert">
+ @ChildContent
+ </div>
+
+}
+<button class="btn-info" @onclick=Click>Toggle </button>
+@code {
+[Parameter]
+public bool Show { get; set; } 
+[Parameter]
+public RenderFragment ChildContent { get; set; }
+[Parameter]
+public EventCallback Click { get; set; }
+}

@@ -1,0 +1,19 @@
+﻿@page "/Alerts"
+<h1>Alerts using native options blazor</h1>
+
+<AlertRenderFragment Show="@ShowAlert" Click=ToggleAlert>
+    <span class="oi oi-check mr-2" aria-hidden="true">
+
+    <strong>Native alert blazor!</strong>
+    </span>
+    <br />
+
+</AlertRenderFragment>
+
+
+@code {
+    public bool ShowAlert { get; set; } = true;
+    public void ToggleAlert() {
+        ShowAlert = !ShowAlert;
+    }
+}

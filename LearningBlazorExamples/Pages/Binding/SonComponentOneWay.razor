@@ -1,0 +1,18 @@
+﻿
+
+
+<div style="background-color:red">
+
+
+<h3>SonComponent</h3>
+Sin embargo los cambios en el hijo no afectaran al padre<br />
+My valor es @ValueParameter
+<input type="range" @bind=ValueParameter></input>
+
+</div>
+
+
+@code {
+    [Parameter]
+    public int ValueParameter { get; set; }
+}

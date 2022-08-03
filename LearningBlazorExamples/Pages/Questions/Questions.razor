@@ -1,0 +1,28 @@
+﻿@page "/Questions"
+@inherits QuestionsBase
+<PageTitle>Self Questions</PageTitle>
+
+
+
+@if(!ended){
+    <h1>Ready for some questions?</h1>
+<p>Welcome to your new questioner.</p>
+    <button class="btn-success" @onclick="()=>GoodQuestion()">Good Answered !</button>
+    <button class="btn-danger" @onclick="()=>BadQuestion()">Bad !</button>
+    <br />
+    <textarea  class="form-control" style="min-width: 100%">@this.currentCuestion</textarea>
+
+}else{
+    <p>You get @GoodAnswes  points!</p>
+
+    <h4>Failed:</h4>
+    @foreach(var question in this.failed){
+        <p>@question</p> <br />
+    }
+}
+
+
+
+
+
+

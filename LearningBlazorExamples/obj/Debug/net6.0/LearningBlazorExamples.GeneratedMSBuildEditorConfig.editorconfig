@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LearningBlazorExamples
+build_property.RootNamespace = LearningBlazorExamples
+build_property.ProjectDir = C:\Users\usuario\Desktop\VisualStudio\BlazorMix-main\LearningBlazorExamples\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\usuario\Desktop\VisualStudio\BlazorMix-main\LearningBlazorExamples
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/AboutMePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRNZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/AboutPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Alerts/AlertRenderFragment.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxlcnRzXEFsZXJ0UmVuZGVyRnJhZ21lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Alerts/AlertsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxlcnRzXEFsZXJ0c1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Binding/OneWayBindingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xPbmVXYXlCaW5kaW5nUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Binding/SonComponentOneWay.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xTb25Db21wb25lbnRPbmVXYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Binding/SonComponentTwoWay.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xTb25Db21wb25lbnRUd29XYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Binding/TwoWayBindingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xUd29XYXlCaW5kaW5nUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/JavascriptInterop/JavascriptInteropPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmF2YXNjcmlwdEludGVyb3BcSmF2YXNjcmlwdEludGVyb3BQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Questions/Questions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlc3Rpb25zXFF1ZXN0aW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/RenderFrament/RenderFragmentPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVuZGVyRnJhbWVudFxSZW5kZXJGcmFnbWVudFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/RenderFrament/TableTemplate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVuZGVyRnJhbWVudFxUYWJsZVRlbXBsYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/TypeParam/DataList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHlwZVBhcmFtXERhdGFMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/TypeParam/TypeParam.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHlwZVBhcmFtXFR5cGVQYXJhbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/ValidatingForms/ValidatingFormsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFsaWRhdGluZ0Zvcm1zXFZhbGlkYXRpbmdGb3Jtc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xs7lldir5i
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9tofctmwrs
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/VisualStudio/BlazorMix-main/LearningBlazorExamples/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

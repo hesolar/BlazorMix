@@ -1,0 +1,27 @@
+﻿@page "/RenderFragment"
+@inject WeatherForecastService ForecastService
+<h3>RenderFragmentPage</h3>
+
+<TableTemplate Items=forecasts Context=forecast>
+     <TableHeader>
+           <th>Date of Forecast</th>
+          <th>Temp.(C)</th>
+          <th>Temp.(F)</th>
+          <th>Summary</th>
+     </TableHeader>
+     <RowTemplate>
+            <td><b>@forecast.Date</b></td>
+            <td>@forecast.TemperatureC</td>
+            <td>@forecast.TemperatureF</td>
+            <td><i>@forecast.Summary</i>--</td>
+     </RowTemplate>
+     <TableFooter></TableFooter>
+ </TableTemplate>
+
+@code{
+    public IEnumerable<LearningBlazorExamples.Data.WeatherForecast> forecasts;
+    protected override async Task OnInitializedAsync()
+    {
+        this.forecasts= await ForecastService.GetForecastAsync(DateTime.Now);
+    }
+}

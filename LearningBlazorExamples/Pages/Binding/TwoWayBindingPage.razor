@@ -1,0 +1,23 @@
+﻿@page "/TwoWayBinding"
+
+En este componente vemos como si cambia el valor del padre cambia el 
+valor de su hijo
+<div style="background-color:green">
+
+<p> valor en el padre: @currentCount</p>
+
+<input type="range" @bind=currentCount @bind:event=oninput  />
+
+
+
+<SonComponentTwoWay @bind-CurrentCounterValue=currentCount />
+   <br />
+</div>
+@code {
+	int currentCount = 0;
+
+	void IncrementCount()
+	{
+		currentCount++;
+	}
+}

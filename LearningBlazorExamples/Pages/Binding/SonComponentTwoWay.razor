@@ -1,0 +1,22 @@
+﻿<div style="background-color:red">
+	Valor en hijo es; @CurrentCounterValue
+
+
+<input type="range" @bind=CurrentCounterValue  @onclick=UpdateCurrentCounterValue @bind:event="oninput" />
+
+</div>
+
+
+@code {
+	[Parameter]
+	public int CurrentCounterValue { get; set; }
+
+	[Parameter]
+	public EventCallback<int> CurrentCounterValueChanged { get; set; }
+
+	async Task UpdateCurrentCounterValue()
+	{
+		 CurrentCounterValueChanged.InvokeAsync(CurrentCounterValue);
+	}
+	
+}

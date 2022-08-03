@@ -1,0 +1,24 @@
+﻿@page "/OneWayBinding"
+
+<PageTitle>One Way Binding</PageTitle>
+
+
+One way binding
+<div style="background-color:green">
+
+   <h1>father component</h1> 
+   valor es @number 
+   <input type="range" @bind-value=number @bind-value:event="oninput" />
+    <br /><br />
+    <SonComponentOneWay ValueParameter="number"></SonComponentOneWay>
+    <br />
+    final del componente padre
+    <br />
+</div>
+
+
+@code{
+    int number = 3;
+
+
+}

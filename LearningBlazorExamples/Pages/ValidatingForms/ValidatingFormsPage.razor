@@ -1,0 +1,30 @@
+﻿@page "/ValidatingForms"
+
+<h3>ValidatingFormsPage</h3>
+
+
+
+<h1>Form Validation</h1>
+<EditForm Model=person OnValidSubmit=HandleValidSubmit>
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <p class="name">
+        Name: <InputText @bind-Value=person.Name />
+    </p>
+    <p class="age">
+        Age(years):<input type="number" @bind-value=person.AgeInYears />
+    </p>
+    <p class="accepts-terms">
+        Accepts terms:<InputCheckbox @bind-Value=person.AcceptsTerms />
+
+    </p>
+
+    <button type="submit">Submit</button>
+</EditForm>
+@code {
+    public bool patos = false;
+    Person person = new Person();
+    void HandleValidSubmit() {
+        patos = true;
+    }
+}
