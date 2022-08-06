@@ -24,4 +24,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\DiffLayout\" />
+  </ItemGroup>
+
 </Project>

@@ -163,3 +163,4 @@ C:\Users\usuario\Desktop\VisualStudio\BlazorMix-main\LearningBlazorExamples\obj\
 C:\Users\usuario\Desktop\VisualStudio\BlazorMix-main\LearningBlazorExamples\obj\Debug\net6.0\LearningBlazorExamples.pdb
 C:\Users\usuario\Desktop\VisualStudio\BlazorMix-main\LearningBlazorExamples\obj\Debug\net6.0\LearningBlazorExamples.genruntimeconfig.cache
 C:\Users\usuario\Desktop\VisualStudio\BlazorMix-main\LearningBlazorExamples\obj\Debug\net6.0\ref\LearningBlazorExamples.dll
+C:\Users\usuario\Desktop\VisualStudio\BlazorMix-main\LearningBlazorExamples\obj\Debug\net6.0\scopedcss\Shared\SecondaryLayout.razor.rz.scp.css

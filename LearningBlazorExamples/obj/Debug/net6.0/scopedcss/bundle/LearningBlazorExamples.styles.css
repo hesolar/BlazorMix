@@ -134,3 +134,75 @@ main[b-xs7lldir5i] {
         display: block;
     }
 }
+/* _content/LearningBlazorExamples/Shared/SecondaryLayout.razor.rz.scp.css */
+.page[b-gapvrqc6kz] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-gapvrqc6kz] {
+    flex: 1;
+}
+
+.sidebar[b-gapvrqc6kz] {
+    background-color:red;
+    
+}
+
+/*.top-row {
+    background-image: linear-gradient(135deg, orange 0%, #3a0647 70%);
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+*/
+    .top-row[b-gapvrqc6kz]  a, .top-row .btn-link[b-gapvrqc6kz] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-gapvrqc6kz] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-gapvrqc6kz] {
+        display: none;
+    }
+
+    .top-row.auth[b-gapvrqc6kz] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-gapvrqc6kz], .top-row .btn-link[b-gapvrqc6kz] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-gapvrqc6kz] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-gapvrqc6kz] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-gapvrqc6kz] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-gapvrqc6kz], article[b-gapvrqc6kz] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
