@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\DiffLayout\" />
+    <Folder Include="Shared\Resources\" />
   </ItemGroup>
 
 </Project>

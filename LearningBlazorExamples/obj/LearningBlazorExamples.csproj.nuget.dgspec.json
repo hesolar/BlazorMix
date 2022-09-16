@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Desktop\\VisualStudio\\BlazorMix-main\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {}
+    "C:\\Users\\usuario\\Desktop\\Nueva carpeta (2)\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Desktop\\VisualStudio\\BlazorMix-main\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {
+    "C:\\Users\\usuario\\Desktop\\Nueva carpeta (2)\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\VisualStudio\\BlazorMix-main\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Nueva carpeta (2)\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
         "projectName": "LearningBlazorExamples",
-        "projectPath": "C:\\Users\\usuario\\Desktop\\VisualStudio\\BlazorMix-main\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\Nueva carpeta (2)\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Desktop\\VisualStudio\\BlazorMix-main\\LearningBlazorExamples\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\Nueva carpeta (2)\\BlazorMix\\LearningBlazorExamples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
