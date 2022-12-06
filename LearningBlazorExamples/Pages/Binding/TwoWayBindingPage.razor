@@ -1,18 +1,20 @@
 ﻿@page "/TwoWayBinding"
 
-En este componente vemos como si cambia el valor del padre cambia el 
-valor de su hijo
+<SharedTitle Title="Two Way Bindign" Description="Changing father value from son" />
 <div style="background-color:green">
 
-<p> valor en el padre: @currentCount</p>
+<p>Fathers value: @currentCount</p>
 
 <input type="range" @bind=currentCount @bind:event=oninput  />
 
 
 
 <SonComponentTwoWay @bind-CurrentCounterValue=currentCount />
-   <br />
 </div>
+
+
+<SharedDescription Title="Two way binding" Description="This page shows how to change value from sons component to father components, the magic trick here is binding the parameter with a event , so each time parameter value changes the event should be invoked" />
+
 @code {
 	int currentCount = 0;
 

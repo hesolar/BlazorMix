@@ -1,0 +1,23 @@
+﻿@page "/HandleError"
+
+<ErrorBoundary @ref=errorBoundary>
+    <ChildContent>
+        <Error/>
+        </ChildContent>
+    <ErrorContent>
+        <p>Se ha producido un error no controlado...</p>
+        <button @onclick=@recuperarEstadoAnterior> Recuperar Estado Anterior </button>
+    </ErrorContent>
+</ErrorBoundary>
+
+@code {
+    ErrorBoundary? errorBoundary;
+
+    void recuperarEstadoAnterior()
+    {
+        errorBoundary?.Recover();
+    }
+
+
+
+}

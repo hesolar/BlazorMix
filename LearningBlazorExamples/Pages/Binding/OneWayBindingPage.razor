@@ -1,21 +1,21 @@
 ﻿@page "/OneWayBinding"
 
 <PageTitle>One Way Binding</PageTitle>
+<SharedTitle Title="One Way Binding"/>
 
-
-One way binding
 <div style="background-color:green">
 
-   <h1>father component</h1> 
-   valor es @number 
+   <h1>father component</h1>
+   Number Value is:  @number
    <input type="range" @bind-value=number @bind-value:event="oninput" />
     <br /><br />
     <SonComponentOneWay ValueParameter="number"></SonComponentOneWay>
     <br />
-    final del componente padre
+    end father component
     <br />
 </div>
 
+<SharedDescription Title="One Way Binding" Description="As you see father component always changes value of sons nested components, that value is passed using the [Parameter] attribute to the sons component." />
 
 @code{
     int number = 3;

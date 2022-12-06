@@ -6,11 +6,12 @@
 
 main[b-gapvrqc6kz] {
     flex: 1;
+    background-color: grey;
 }
 
 .sidebar[b-gapvrqc6kz] {
-    background-color:red;
-    
+    background-color:orangered;
+
 }
 
 /*.top-row {

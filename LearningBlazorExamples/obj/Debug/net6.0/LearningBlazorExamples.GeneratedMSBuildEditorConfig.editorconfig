@@ -8,121 +8,129 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LearningBlazorExamples
 build_property.RootNamespace = LearningBlazorExamples
-build_property.ProjectDir = C:\Users\usuario\Desktop\Nueva carpeta (2)\BlazorMix\LearningBlazorExamples\
+build_property.ProjectDir = C:\Users\Hector\Source\Repos\BlazorMix\LearningBlazorExamples\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\usuario\Desktop\Nueva carpeta (2)\BlazorMix\LearningBlazorExamples
+build_property.MSBuildProjectDirectory = C:\Users\Hector\Source\Repos\BlazorMix\LearningBlazorExamples
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/App.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/AboutMePage.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/AboutMePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRNZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/AboutPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRQYWdlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Alerts/AlertRenderFragment.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Alerts/AlertRenderFragment.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxlcnRzXEFsZXJ0UmVuZGVyRnJhZ21lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Alerts/AlertsPage.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Alerts/AlertsPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxlcnRzXEFsZXJ0c1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Binding/OneWayBindingPage.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Binding/OneWayBindingPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xPbmVXYXlCaW5kaW5nUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Binding/SonComponentOneWay.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Binding/SonComponentOneWay.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xTb25Db21wb25lbnRPbmVXYXkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Binding/SonComponentTwoWay.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Binding/SonComponentTwoWay.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xTb25Db21wb25lbnRUd29XYXkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Binding/TwoWayBindingPage.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Binding/TwoWayBindingPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZGluZ1xUd29XYXlCaW5kaW5nUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/DiffLayout/DiffLayout.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/DiffLayout/DiffLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlmZkxheW91dFxEaWZmTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/DiffLayout/_Imports.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/DiffLayout/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlmZkxheW91dFxfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/HandleError/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGFuZGxlRXJyb3JcRXJyb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Index.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/HandleError/HandleError.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGFuZGxlRXJyb3JcSGFuZGxlRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/JavascriptInterop/JavascriptInteropPage.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/JavascriptInterop/JavascriptInteropPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmF2YXNjcmlwdEludGVyb3BcSmF2YXNjcmlwdEludGVyb3BQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Questions/Questions.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlc3Rpb25zXFF1ZXN0aW9ucy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/RenderFrament/RenderFragmentPage.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/RenderFrament/RenderFragmentPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVuZGVyRnJhbWVudFxSZW5kZXJGcmFnbWVudFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/RenderFrament/TableTemplate.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/RenderFrament/TableTemplate.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVuZGVyRnJhbWVudFxUYWJsZVRlbXBsYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/TypeParam/DataList.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/SeparateCsFromRazor/SeparateCsFromRazor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VwYXJhdGVDc0Zyb21SYXpvclxTZXBhcmF0ZUNzRnJvbVJhem9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/TypeParam/DataList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHlwZVBhcmFtXERhdGFMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/TypeParam/TypeParam.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/TypeParam/TypeParam.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHlwZVBhcmFtXFR5cGVQYXJhbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/ValidatingForms/ValidatingFormsPage.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/ValidatingForms/ValidatingFormsPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFsaWRhdGluZ0Zvcm1zXFZhbGlkYXRpbmdGb3Jtc1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Shared/SurveyPrompt.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/_Imports.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Shared/MainLayout.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Shared/Components/SharedDescription.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcU2hhcmVkRGVzY3JpcHRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-z02i3qy47j
+
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Shared/Components/SharedTitle.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudHNcU2hhcmVkVGl0bGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-k9bxk6nkp0
+
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xs7lldir5i
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Shared/NavMenu.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9tofctmwrs
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Shared/SecondaryLayout.razor]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Shared/SecondaryLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlY29uZGFyeUxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-gapvrqc6kz
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/Error.cshtml]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/_Host.cshtml]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/usuario/Desktop/Nueva carpeta (2)/BlazorMix/LearningBlazorExamples/Pages/_Layout.cshtml]
+[C:/Users/Hector/Source/Repos/BlazorMix/LearningBlazorExamples/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

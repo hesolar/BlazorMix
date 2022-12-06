@@ -1,3 +1,315 @@
+/* _content/LearningBlazorExamples/Shared/Components/SharedDescription.razor.rz.scp.css */
+
+*[b-z02i3qy47j] {
+	box-sizing: border-box;
+}
+
+
+body[b-z02i3qy47j] {
+	background-image: linear-gradient(45deg, #7175da, #9790F2);
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.courses-container[b-z02i3qy47j] {
+
+}
+
+.course[b-z02i3qy47j] {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.course h6[b-z02i3qy47j] {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.course h2[b-z02i3qy47j] {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.course-preview[b-z02i3qy47j] {
+	background-color: #2A265F;
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.course-preview a[b-z02i3qy47j] {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.course-info[b-z02i3qy47j] {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.progress-container[b-z02i3qy47j] {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	width: 150px;
+}
+
+.progress[b-z02i3qy47j] {
+	background-color: #ddd;
+	border-radius: 3px;
+	height: 5px;
+	width: 100%;
+}
+
+.progress[b-z02i3qy47j]::after {
+	border-radius: 3px;
+	background-color: #2A265F;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5px;
+	width: 66%;
+}
+
+.progress-text[b-z02i3qy47j] {
+	font-size: 10px;
+	opacity: 0.6;
+	letter-spacing: 1px;
+}
+
+.btn[b-z02i3qy47j] {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+/* SOCIAL PANEL CSS */
+.social-panel-container[b-z02i3qy47j] {
+	position: fixed;
+	right: 0;
+	bottom: 80px;
+	transform: translateX(100%);
+	transition: transform 0.4s ease-in-out;
+}
+
+.social-panel-container.visible[b-z02i3qy47j] {
+	transform: translateX(-10px);
+}
+
+.social-panel[b-z02i3qy47j] {
+	background-color: #fff;
+	border-radius: 16px;
+	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
+	border: 5px solid #001F61;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Muli';
+	position: relative;
+	height: 169px;
+	width: 370px;
+	max-width: calc(100% - 10px);
+}
+
+.social-panel button.close-btn[b-z02i3qy47j] {
+	border: 0;
+	color: #97A5CE;
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.social-panel button.close-btn:focus[b-z02i3qy47j] {
+	outline: none;
+}
+
+.social-panel p[b-z02i3qy47j] {
+	background-color: #001F61;
+	border-radius: 0 0 10px 10px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 2px 17px 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: 0;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 235px;
+}
+
+.social-panel p i[b-z02i3qy47j] {
+	margin: 0 5px;
+}
+
+.social-panel p a[b-z02i3qy47j] {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+.social-panel h4[b-z02i3qy47j] {
+	margin: 20px 0;
+	color: #97A5CE;
+	font-family: 'Muli';
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.social-panel ul[b-z02i3qy47j] {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-panel ul li[b-z02i3qy47j] {
+	margin: 0 10px;
+}
+
+.social-panel ul li a[b-z02i3qy47j] {
+	border: 1px solid #DCE1F2;
+	border-radius: 50%;
+	color: #001F61;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	text-decoration: none;
+}
+
+.social-panel ul li a:hover[b-z02i3qy47j] {
+	border-color: #FF6A00;
+	box-shadow: 0 9px 12px -9px #FF6A00;
+}
+
+.floating-btn[b-z02i3qy47j] {
+	border-radius: 26.5px;
+	background-color: #001F61;
+	border: 1px solid #001F61;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-btn:hover[b-z02i3qy47j] {
+	background-color: #ffffff;
+	color: #001F61;
+}
+
+.floating-btn:focus[b-z02i3qy47j] {
+	outline: none;
+}
+
+.floating-text[b-z02i3qy47j] {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a[b-z02i3qy47j] {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+	.social-panel-container.visible[b-z02i3qy47j] {
+		transform: translateX(0px);
+	}
+
+	.floating-btn[b-z02i3qy47j] {
+		right: 10px;
+	}
+}
+/* _content/LearningBlazorExamples/Shared/Components/SharedTitle.razor.rz.scp.css */
+body[b-k9bxk6nkp0] {
+    background-color: #111;
+}
+
+.container[b-k9bxk6nkp0] {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1[b-k9bxk6nkp0] {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+}
+
+    h1:hover[b-k9bxk6nkp0] {
+        font-variation-settings: "wght" 582;
+        letter-spacing: 1px;
+    }
+
+p[b-k9bxk6nkp0] {
+    font-size: 1.2em;
+    line-height: 150%;
+    text-align: center;
+    color: MintCream;
+    letter-spacing: .5px;
+}
 /* _content/LearningBlazorExamples/Shared/MainLayout.razor.rz.scp.css */
 .page[b-xs7lldir5i] {
     position: relative;
@@ -7,11 +319,12 @@
 
 main[b-xs7lldir5i] {
     flex: 1;
+    background-color: black;
 }
 
 .sidebar[b-xs7lldir5i] {
     background-image: linear-gradient(135deg, orange 0%, #3a0647 70%);
-    
+
 }
 
 .top-row[b-xs7lldir5i] {
@@ -143,11 +456,12 @@ main[b-xs7lldir5i] {
 
 main[b-gapvrqc6kz] {
     flex: 1;
+    background-color: grey;
 }
 
 .sidebar[b-gapvrqc6kz] {
-    background-color:red;
-    
+    background-color:orangered;
+
 }
 
 /*.top-row {

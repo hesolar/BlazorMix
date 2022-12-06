@@ -1,12 +1,13 @@
-﻿@page "/Questions"
-@inherits QuestionsBase
+﻿@page "/SeparateCsFromRazor"
+@inherits SeparateCsFromRazorsBase
 <PageTitle>Self Questions</PageTitle>
 
+<SharedTitle Title="Self Questions" SubTitle="Welcome to your new questioner."/>
 
 
 @if(!ended){
     <h1>Ready for some questions?</h1>
-<p>Welcome to your new questioner.</p>
+
     <button class="btn-success" @onclick="()=>GoodQuestion()">Good Answered !</button>
     <button class="btn-danger" @onclick="()=>BadQuestion()">Bad !</button>
     <br />
@@ -24,5 +25,9 @@
 
 
 
+<SharedDescription Title="Separate c# in file" Description="Once i did it form my sister think quite usefull. This page is used to show how you can embed code in other .cs file insted using coding section in .razor file.
+The .cs file has to inherit from componentBase to get lyfecycle methods from blazor. The .razor file has to declare inherit to that file.
+
+" />
 
 

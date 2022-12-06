@@ -1,5 +1,6 @@
 ﻿@page "/Alerts"
-<h1>Alerts using native options blazor</h1>
+
+<SharedTitle Title="Alerts using native options blazor" SubTitle="Without js"/>
 
 <AlertRenderFragment Show="@ShowAlert" Click=ToggleAlert>
     <span class="oi oi-check mr-2" aria-hidden="true">
@@ -10,9 +11,9 @@
 
 </AlertRenderFragment>
 
-
+<SharedDescription Description="As you see blazor can use alerts without js" Title="Alerts" />
 @code {
-    public bool ShowAlert { get; set; } = true;
+    public bool ShowAlert { get; set; } = false;
     public void ToggleAlert() {
         ShowAlert = !ShowAlert;
     }

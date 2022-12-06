@@ -2,35 +2,50 @@
 @page "/JavascriptInterop"
 @inject IJSRuntime jsruntime;
 
-<h1>Some cool graphics!</h1>
-@saludo
-<br />
 
-<div style="display:@numEstudiantes" id="chart_div" class="chartdiv"></div>
-<button @onclick=@(()=>numEstudiantes = hideShowExample(numEstudiantes))>Hide/Show</button>
-
-<div style="display:@regions" id="regions_div" class="chartdiv"></div>
-<button @onclick=@(()=>regions = hideShowExample(regions))>Hide/Show</button>
-
-<h4>Combo</h4>
-<div style="display:@regions" id="googleCombo" class="chartdiv"></div>
-<button @onclick=@(()=>regions=hideShowExample(regions))>Hide/Show</button>
+<SharedTitle Title="JS Interop"
+             SubTitle="What about some random cool graphics with js interop?"
+             Description=" The cool fact is you can call c# from js , or js from c#.    Really amazing! " />
 
 
+
+<button @onclick=@(()=>Hide=!Hide)> Hide / Show Graphics</button>
+<div hidden=@Hide style="margin-bottom:25px;">
+
+
+    <div id="chart_div" class="chartdiv"></div>
+
+    <div id="regions_div" class="chartdiv"></div>
+
+    <div id="googleCombo" class="chartdiv"></div>
+</div>
+
+
+
+<button @onclick=TryJSInterop> Show How to call js function from blazor
+</button>
+
+
+<h1>@saludo</h1>
+
+
+<SharedDescription Title="JS Interop" SubTitle="Using example" Description="To Use js interop you shoud inject jsinterop, then declare your scripts in wwwroot/js . Finally if you need libraries you need to add the scripts in /Pages/_Layout.cshtml " />
 
 @code {
-    public string numEstudiantes = "block";
-    public string regions = "block";
-    public string combo = "block";
+
     public string saludo = "";
 
-    public string hideShowExample(string s) => s == "block" ? "none" : "block";
+    public bool Hide = true;
+
+
 
     protected override async Task OnAfterRenderAsync(bool firstRender) {
         await jsruntime.InvokeVoidAsync("googleCharts");
         await jsruntime.InvokeVoidAsync("GoogleRegions");
         await jsruntime.InvokeVoidAsync("GoogleComboChart");
-        object[] p;
-        saludo = await jsruntime.InvokeAsync<String>("SayHelloFromJS",saludo );
+    }
+
+    public async Task TryJSInterop() {
+     saludo = await jsruntime.InvokeAsync<String>("SayHelloFromJS",saludo );
     }
 }

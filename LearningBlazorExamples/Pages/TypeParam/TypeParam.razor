@@ -1,10 +1,11 @@
 ﻿@page "/TypeParam"
+<SharedTitle Title="Generic Type Components" SubTitle="Just like List<T> but using components" />
 
-<h1>using components with generic Type.</h1>
 <DataList Data=@People>
   @context.Salutation @context.FamilyName, @context.GivenName
 </DataList>
 
+<SharedDescription Description="Check the datalist component in this folder" Title="TComponents" />
 @code
 {
   private IEnumerable<Person> People;

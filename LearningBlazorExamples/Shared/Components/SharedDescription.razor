@@ -1,0 +1,23 @@
+﻿<div class="courses-container">
+	<div class="course">
+		<div class="course-preview">
+			<h2>@Title</h2>
+			<h6>@SubTitle</h6>
+
+		</div>
+		<div class="course-info">
+			<h2>Info</h2>
+			@Description
+			@body
+		</div>
+	</div>
+</div>
+
+
+
+@code {
+    [Parameter] public string Title{ get; set; }
+    [Parameter] public RenderFragment body{ get; set; }
+    [Parameter] public string SubTitle{ get; set; }
+    [Parameter] public string Description{ get; set; }
+}

@@ -2,7 +2,7 @@
 
 namespace LearningBlazorExamples.Pages;
 
-public class QuestionsBase : ComponentBase
+public partial class SeparateCsFromRazorsBase : ComponentBase
 {
 
     protected override void OnInitialized()
@@ -13,7 +13,7 @@ public class QuestionsBase : ComponentBase
     public bool ended = false;
     public String currentCuestion = String.Empty;
 
-    public List<int> preguntadas = Enumerable.Range(1, 35).ToList();
+    public List<int> preguntadas = Enumerable.Range(1, 10).ToList();
 
     public List<string> failed { get; set; } = new();
     public int GoodAnswes = 0;
@@ -28,7 +28,7 @@ public class QuestionsBase : ComponentBase
 
             preguntadas.Remove(number);
 
-            this.currentCuestion = getLine(number, "Pages/Questions/questions.txt");
+            this.currentCuestion = getLine(number, "Pages/SeparateCsFromRazor/questions.txt");
 
         } catch (System.ArgumentOutOfRangeException e)
         {

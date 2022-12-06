@@ -1,30 +1,37 @@
 ﻿@page "/ValidatingForms"
 
-<h3>ValidatingFormsPage</h3>
 
+<SharedTitle Title="Validating Forms Page"
+             SubTitle="This is an example of validating forms using EditForm."
+             Description="All native in blazor similar to model way used in mvc(but better)." />
 
+<div style="background-color:orange; width:100%;margin-left:auto;">
+    <h3>Hint:</h3>
 
-<h1>Form Validation</h1>
-<EditForm Model=person OnValidSubmit=HandleValidSubmit>
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-    <p class="name">
-        Name: <InputText @bind-Value=person.Name />
-    </p>
-    <p class="age">
-        Age(years):<input type="number" @bind-value=person.AgeInYears />
-    </p>
-    <p class="accepts-terms">
-        Accepts terms:<InputCheckbox @bind-Value=person.AcceptsTerms />
+    <EditForm Model=person OnValidSubmit=HandleValidSubmit>
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <p class="name">
+            Name: <InputText @bind-Value=person.Name />
+        </p>
+        <p class="age">
+            Age(years):<input type="number" @bind-value=person.AgeInYears />
+        </p>
+        <p class="accepts-terms">
+            Accepts terms:<InputCheckbox @bind-Value=person.AcceptsTerms />
 
-    </p>
+        </p>
 
-    <button type="submit">Submit</button>
-</EditForm>
+        <button type="submit">Submit</button>
+    </EditForm>
+</div>
+<SharedDescription Title="Validate forms" Description=" The model is the class called person in the same folder.
+    The annotations are inlined in the class but its better using FluentValidator to reuse it." />
 @code {
     public bool patos = false;
     Person person = new Person();
-    void HandleValidSubmit() {
+    void HandleValidSubmit()
+    {
         patos = true;
     }
 }

@@ -1,0 +1,15 @@
+﻿
+<SharedTitle Title="Ejemplo de uso Error boundary" Description="Recobrar el estado de la aplicacion antes de un error." />
+
+<button @onclick=Exception> Throw new error example </button>
+
+<SharedDescription Title="Error Boundary" Description="El compnente de error boundary nos permite recuperar el estado anterior de la aplicacion , y mostrar un layout alternativo al error producido." />
+
+@code {
+
+    public void Exception()
+    {
+
+        throw new Exception("im a wild exception");
+    }
+}

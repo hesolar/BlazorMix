@@ -1,0 +1,12 @@
+﻿<div class="container">
+    <h1 contenteditable>@Title</h1>
+    <p>@SubTitle</p>
+    <p>@Description</p>
+</div>
+
+@code {
+    [Parameter] public String Title { get; set; }
+    [Parameter] public String SubTitle { get; set; }
+    [Parameter] public String Description { get; set; }
+
+}

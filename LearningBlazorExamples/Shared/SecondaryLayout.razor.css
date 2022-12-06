@@ -6,11 +6,12 @@
 
 main {
     flex: 1;
+    background-color: grey;
 }
 
 .sidebar {
-    background-color:red;
-    
+    background-color:orangered;
+
 }
 
 /*.top-row {

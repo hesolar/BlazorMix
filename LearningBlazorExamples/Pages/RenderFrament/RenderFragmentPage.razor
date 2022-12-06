@@ -1,6 +1,6 @@
 ﻿@page "/RenderFragment"
 @inject WeatherForecastService ForecastService
-<h3>RenderFragmentPage</h3>
+<SharedTitle Title="Render Fragment" />
 
 <TableTemplate Items=forecasts Context=forecast>
      <TableHeader>
@@ -17,6 +17,7 @@
      </RowTemplate>
      <TableFooter></TableFooter>
  </TableTemplate>
+<SharedDescription Title="Render Fragment" Description="Use render fragment to aply templates to objects, in this case using tables" />
 
 @code{
     public IEnumerable<LearningBlazorExamples.Data.WeatherForecast> forecasts;
