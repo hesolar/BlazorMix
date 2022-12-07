@@ -6,13 +6,15 @@ Hope you enjoy it :)
 
 Content:
 <br>
-DiffLayout (Changing layout)
-ValidatingForms (With edit forms)
-JSInterop (Calling js from c# )
-SeparateCsFromRazor (Example of how to separate logic in other file)
-T_Components (Components with parametric argunments)
-One Way Binding
-Two Way Binding
-RenderFragment (Common use)
-Alerts (Without js)
-Handle Errors (With error boundary)
+<li>
+<ul>DiffLayout (Changing layout)</ul>
+<ul>ValidatingForms (With edit forms)</ul>
+<ul>JSInterop (Calling js from c# )</ul>
+<ul>SeparateCsFromRazor (Example of how to separate logic in other file)</ul>
+<ul>T_Components (Components with parametric argunments)</ul>
+<ul>One Way Binding</ul>
+<ul>Two Way Binding</ul>
+<ul>RenderFragment (Common use)</ul>
+<ul>Alerts (Without js)</ul>
+  <ul>Handle Errors (With error boundary) </ul>
+</li>
