@@ -5,7 +5,7 @@ Hope you enjoy it :)
 
 
 Content:
-
+<br>
 DiffLayout (Changing layout)
 ValidatingForms (With edit forms)
 JSInterop (Calling js from c# )
