@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hector\\Source\\Repos\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {}
+    "C:\\Users\\d074064\\Desktop\\delete\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hector\\Source\\Repos\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {
+    "C:\\Users\\d074064\\Desktop\\delete\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hector\\Source\\Repos\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
+        "projectUniqueName": "C:\\Users\\d074064\\Desktop\\delete\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
         "projectName": "LearningBlazorExamples",
-        "projectPath": "C:\\Users\\Hector\\Source\\Repos\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
-        "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hector\\Source\\Repos\\BlazorMix\\LearningBlazorExamples\\obj\\",
+        "projectPath": "C:\\Users\\d074064\\Desktop\\delete\\BlazorMix\\LearningBlazorExamples\\LearningBlazorExamples.csproj",
+        "packagesPath": "C:\\Users\\d074064\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d074064\\Desktop\\delete\\BlazorMix\\LearningBlazorExamples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hector\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\d074064\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,9 +25,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://gesintegracion.admon-cfnavarra.es/nexus/repository/nuget-group/": {}
         },
         "frameworks": {
           "net6.0": {
@@ -39,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,10 +1,5 @@
-1.	Expón la metafísica (o teoría del ser o de la realidad) de Platón (427-347 a.C.).
-2.	Expón la metafísica de Aristóteles (384-322 a.C.).
-3.	Expón la metafísica de Santo Tomás (1225-1274).
-4.	Expón la metafísica de Descartes (1596-1650).
-5.	Expón la crítica de Hume (1711-1776) a la metafísica. ¡¡¡¡¡¡¡¡¡¡
-6.	Expón la crítica de Kant (1724-1804) a la metafísica. ¡¡¡¡¡¡
-7.	Expón la crítica del Círculo de Viena a la metafísica.
-8.	Expón la crítica de Nietzsche a la metafísica.
-9.	Expón el problema apariencia y verdad para los racionalistas (Descartes, Leibniz...).
-10.	Expón el problema apariencia y verdad para los empiristas (Locke, Hume...)
+1.Is ASP.NET Core a cross-platform framework?
+2.Can ASP.NET Core applications be hosted on Linux servers?
+3.Does ASP.NET Core support dependency injection?
+4.Is Razor the default view engine in ASP.NET Core?
+5.Can ASP.NET Core applications run on both .NET Core and .NET Framework?

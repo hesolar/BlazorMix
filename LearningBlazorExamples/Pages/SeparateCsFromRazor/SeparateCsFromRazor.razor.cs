@@ -13,7 +13,7 @@ public partial class SeparateCsFromRazorsBase : ComponentBase
     public bool ended = false;
     public String currentCuestion = String.Empty;
 
-    public List<int> preguntadas = Enumerable.Range(1, 10).ToList();
+    public List<int> preguntadas = Enumerable.Range(1, 5).ToList();
 
     public List<string> failed { get; set; } = new();
     public int GoodAnswes = 0;
