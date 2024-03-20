@@ -1,0 +1,33 @@
+﻿@page "/Testing"
+
+
+
+    <button @onclick=IncrementCountExternal>Increment Outside the component</button>
+    <button @onclick=IncrementCountExternalChangeUI>Increment Outside the component and refreshView</button>
+
+
+    <hr />
+    @* <Counter @ref=counter/> *@
+    <hr />
+
+@code {
+    Counter counter;
+    protected override void OnInitialized()
+    {
+
+        counter = new();
+        counter.IncrementCount();
+        counter.IncrementCount();
+        var cambioCorrecto = counter.currentCount == 1;
+    }
+
+    void IncrementCountExternalChangeUI()
+    {
+        counter.IncrementCountRefresh();
+    }
+
+    void IncrementCountExternal()
+    {
+        counter.IncrementCount();
+    }
+}

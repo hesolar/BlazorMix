@@ -1,0 +1,11 @@
+﻿<div style="background-color:orange">
+<h2>@title (orange)</h2>
+
+
+<ComponentThree  @ref=ComponentThree title="Component Three"/>
+</div>
+
+@code {
+    [Parameter] public ComponentThree ComponentThree { get; set; }
+    [Parameter] public String title { get; set; }
+}

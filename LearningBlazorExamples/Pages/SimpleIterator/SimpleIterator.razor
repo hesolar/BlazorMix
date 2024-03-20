@@ -1,0 +1,67 @@
+﻿@page "/SimpleIterator"
+
+
+
+<SharedTitle Title="Cambios en el dom dinamicos" Description="Realizar cambios en el dom mediante c#" />
+
+
+<SharedDescription Title="Iterando objetos en el dom..." Description="Este es un ejemplo sencillo de binding entre dom-objetos, en este caso la lista de objetos es modificada, este cambio produce inmediatamente un cambio en el dom. Se pueden hacer cambios en el css usando c#" />
+
+
+<label>Id</label>
+<input type="text" @bind-value=newId />
+<label>Color</label>
+<input type="text" @bind-value=newColor />
+
+<button @onclick=AddCar>AddCar</button>
+<hr />
+
+
+<table>
+
+    <tr>
+        <th>Id</th>
+        <th>Color</th>
+
+    </tr>
+@foreach (var car in data)
+{
+    <tr>
+            <td>@car.id</td>
+            <td><button style="width:25px; height:25px;background-color:@car.color" /></td>
+
+    </tr>
+}
+
+</table>
+
+
+
+
+
+@code {
+    String newId;
+    String newColor;
+    String newAction;
+
+    List<Car> data = new()
+    {
+        new (){id = "a", color="green"},
+        new (){id = "b", color="red"} ,
+        new (){id = "c", color="blue"} ,
+        new (){id = "c", color="purple"}
+
+
+    };
+
+    public void AddCar()
+    {
+        this.data.Add(new(){id= newId, color=newColor});
+    }
+
+    public class Car
+    {
+        public string id { get; set; }
+        public string color{get;set;}
+    }
+}

@@ -1,0 +1,17 @@
+﻿ @page "/NestedComponents"
+
+
+<SharedTitle Title="Ejemplo de uso de components anidados" Description="Mostrar como enviar componentes como parametros" />
+
+
+
+<div style="background-color: red">
+
+<h1>@title (Red)</h1>
+<ComponentTwo title="ComponentTwo" ComponentThree=@(new ComponentThree())> </ComponentTwo>
+<hr />
+</div>
+
+@code {
+    String title = "ComponentOne";
+}

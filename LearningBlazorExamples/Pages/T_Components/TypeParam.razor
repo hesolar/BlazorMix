@@ -1,0 +1,27 @@
+﻿@page "/TypeParam"
+@using LearningBlazorExamples.Pages.TypeParam;
+<SharedTitle Title="Generic Type Components" SubTitle="Just like List<T> but using components" />
+
+<DataList Data=@People>
+
+
+    <hr/>
+  @context.Salutation @context.FamilyName, @context.GivenName
+    <hr/>
+</DataList>
+
+<SharedDescription Description="Check the datalist component in this folder" Title="TComponents" />
+@code
+{
+  private IEnumerable<Person> People;
+  protected override void OnInitialized()
+  {
+    base.OnInitialized();
+    People = new Person[]
+    {
+      new Person { Salutation = "Mr", GivenName = "Asier", FamilyName = "Fernandez" },
+      new Person { Salutation = "Mr", GivenName = "Jose Maria", FamilyName = "Calvo" },
+      new Person { Salutation = "Mr", GivenName = "Luis", FamilyName = "Luzuriaga" }
+    };
+  }
+}

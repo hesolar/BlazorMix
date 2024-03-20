@@ -64,7 +64,7 @@ function GoogleComboChart() {
     google.charts.load('current', { 'packages': ['corechart'] });
     google.charts.setOnLoadCallback(drawVisualization);
 
-    
+
 }
 
 function drawVisualization() {
@@ -80,8 +80,8 @@ function drawVisualization() {
 
     var options = {
         title: 'Random Title',
-        vAxis: { title: 'Alumnos' },
-        hAxis: { title: 'Años' },
+        vAxis: { title: 'X' },
+        hAxis: { title: 'Y' },
         seriesType: 'bars',
         series: { 5: { type: 'line' } }
     };
@@ -90,7 +90,7 @@ function drawVisualization() {
     chart.draw(data, options);
 }
 
-function SayHelloFromJS() {
-    return 'hello from JS, using JSInterop!';
+function SayHelloFromJS( message) {
+    return 'hello from JS, using JSInterop!:' +'custom message:' + message;
 
 }

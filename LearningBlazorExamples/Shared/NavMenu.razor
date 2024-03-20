@@ -11,82 +11,83 @@
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> About Me
+                <span class="oi oi-home" aria-hidden="true"></span> Index
+            </NavLink>
+        </div>
+
+        @*Using js in blazor*@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="JavascriptInterop">
+                <span class="oi oi-resize-both" aria-hidden="true"></span> 1.2 JSInterop
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="NestedComponents">
+                <span class="oi oi-copywriting" aria-hidden="true"></span> 2.1NestedComponents
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href=SimpleIterator Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span>SimpleIterator
+                <span class="oi oi-home" aria-hidden="true"></span>2.2 SimpleIterator
             </NavLink>
         </div>
-        @*Using js in blazor*@
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="JavascriptInterop">
-                <span class="oi oi-resize-both" aria-hidden="true"></span> JSInterop
-            </NavLink>
-        </div>
-
-        @*validating form example*@
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="ValidatingForms">
-                <span class="oi oi-list" aria-hidden="true"></span> ValidatingForms
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="Testing">
-                <span class="oi oi-list" aria-hidden="true"></span> Testing
-            </NavLink>
-        </div>
-
-        @*Using js in blazor*@
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="SeparateCsFromRazor">
-                <span class="oi oi-question-mark" aria-hidden="true"></span> SeparateCsFromRazor
+                <span class="oi oi-question-mark" aria-hidden="true"></span> 2.3 SeparateCsFromRazor
             </NavLink>
         </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="Testing">
+                <span class="oi oi-list" aria-hidden="true"></span> 2.4 Testing
+            </NavLink>
+        </div>
+         <div class="nav-item px-3">
+            <NavLink class="nav-link" href="OneWayBinding" Match="NavLinkMatch.All">
+                <span class="oi oi-expand-left" aria-hidden="true"></span> 2.5 One Way Binding
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="TwoWayBinding">
+                <span class="oi oi-fullscreen-enter" aria-hidden="true"></span> 2.6 Two Way Binding
+            </NavLink>
+        </div>
+        @*Using js in blazor*@
 
          @*Components with a type*@
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="TypeParam">
-                <span class="oi oi-question-mark" aria-hidden="true"></span> T_Components
+                <span class="oi oi-question-mark" aria-hidden="true"></span> 3.1 T_Components
             </NavLink>
         </div>
 
-         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="OneWayBinding" Match="NavLinkMatch.All">
-                <span class="oi oi-expand-left" aria-hidden="true"></span> One Way Binding
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="TwoWayBinding">
-                <span class="oi oi-fullscreen-enter" aria-hidden="true"></span> Two Way Binding
-            </NavLink>
-        </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="RenderFragment">
-                <span class="oi oi-align-center" aria-hidden="true"></span> RenderFragment
+                <span class="oi oi-align-center" aria-hidden="true"></span> 3.2 RenderFragment
             </NavLink>
         </div>
          <div class="nav-item px-3">
             <NavLink class="nav-link" href="Alerts">
-                <span class="oi oi-menu" aria-hidden="true"></span> Alerts
+                <span class="oi oi-menu" aria-hidden="true"></span> 3.3 Alerts
             </NavLink>
         </div>
 
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="HandleError">
-                <span class="oi oi-bug" aria-hidden="true"></span> Handle Error
+                <span class="oi oi-bug" aria-hidden="true"></span> 3.4 Handle Error
             </NavLink>
         </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="NestedComponents">
-                <span class="oi oi-copywriting" aria-hidden="true"></span> NestedComponents
-            </NavLink>
-        </div>
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="DiffLayout">
                 <span class="oi oi-browser" aria-hidden="true"></span> DiffLayout
+            </NavLink>
+        </div>
+        @*validating form example*@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="ValidatingForms">
+                <span class="oi oi-list" aria-hidden="true"></span> ValidatingForms
             </NavLink>
         </div>
     </nav>
